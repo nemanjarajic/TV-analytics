@@ -4,6 +4,7 @@ Eluvio coding challenge for data science and machine leanring
 # Data exploring
 Data Frame information
 
+
 Data columns (total 8 columns):
 '#'   Column        Non-Null Count   Dtype
 ---  ------        --------------   -----
