@@ -1,11 +1,11 @@
 # eluvio_DS_ML
 Eluvio coding challenge for data science and machine leanring 
 
-#Data exploring
+# Data exploring
 Data Frame information
 
 Data columns (total 8 columns):
- #   Column        Non-Null Count   Dtype
+'#'   Column        Non-Null Count   Dtype
 ---  ------        --------------   -----
  0   time_created  509236 non-null  int64
  1   date_created  509236 non-null  object
