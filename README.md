@@ -35,5 +35,6 @@ del df['category']
 df['date_created'] = df['date_created'].apply(lambda s: s.split('-')[0])
 ```
 
-![Screenshot](uploads per year.png)
+![alt text](https://github.com/nemanjarajic/eluvio_DS_ML/blob/main/uploads%20per%20year.png)
 
+Increase in videos uploaded per year in 2013 to 2016 compared to 2008 to 2012
