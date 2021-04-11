@@ -35,4 +35,5 @@ del df['category']
 df['date_created'] = df['date_created'].apply(lambda s: s.split('-')[0])
 ```
 
+![Screenshot](uploads per year.png)
 
