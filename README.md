@@ -38,3 +38,8 @@ df['date_created'] = df['date_created'].apply(lambda s: s.split('-')[0])
 ![alt text](https://github.com/nemanjarajic/eluvio_DS_ML/blob/main/uploads%20per%20year.png)
 
 Increase in videos uploaded per year in 2013 to 2016 compared to 2008 to 2012
+
+![alt text](https://github.com/nemanjarajic/eluvio_DS_ML/blob/main/correlation%20matrix.png)
+
+The correlation matrix of the dataset shows that there is a low correlation between the number of likes a video has and the age restriction.
+There is a slight correlation between the year and the up votes but that can be attributed to the increase of videos uploaded per year.
