@@ -49,7 +49,7 @@ del df['category']
 del df['over_18']
 df['date_created'] = df['date_created'].apply(lambda s: s.split('-')[0])
 ```
-## Data Manipulation
+## Data Insight
 
 Finding the creator that has the highest likes per video by counting the number of up votes a user has and dividing it by the number of videos posted.
 
@@ -84,4 +84,34 @@ Most common words in title with up votes over 200 in 2016
 ('one', 183), ('eu', 182), ('report', 178), ('india', 176), ('russian', 172), ('say', 167), ('two', 163), ('syria', 162), ('war', 161), ('military', 159), ('scientists', 158), ('human', 158), ('german', 152), ('climate', 151), ('death', 150), ('rights', 147), ('chinese', 144), ('may', 143), ('japan', 142), ('islamic', 136), ('ban', 135), ('french', 132), ('time', 132), ('oil', 130), ('british', 130), ('france', 128), ('court', 127), ('thousands', 126), ('arabia', 124), ('news', 124), ('europe', 121), ('global', 120), ('australia', 118), ('israel', 117), ('last', 117), ('law', 116), ('attacks', 115), ('dead', 112), ('children', 112), ('refugees', 111), ('man', 110), ('canada', 110), ('iran', 109), ('calls', 109), ('turkish', 108), ('since', 107), ('nuclear', 106), ('officials', 106), ('three', 105), ('group', 103), ('air', 102), ('european', 102), ('would', 102), ('change', 102), ('public', 101), ('city', 99), ('muslim', 98), ('international', 97), ('billion', 97), ('party', 96), ('child', 96), ('back', 94), ('leader', 94), ('syrian', 94), ('arrested', 94), ('set', 93), ('according', 93), ('pakistan', 92)]
 ```
 
+Insight of which videos recieved the most amount of upvotes for the two most recent years
 
+Top 10 videos in 2016
+```
+        time_created  date_created  up_votes                                              title               author
+450818    1459706506          2016     13244  2.6 terabyte leak of Panamanian shell company ...         mister_geaux
+449809    1459336773          2016     11108  Hundreds of thousands of leaked emails reveal ...               Xiroth
+500786    1476881235          2016     10394  Feeding cows seaweed could slash global greenh...                 mvea
+465396    1464676302          2016     10289  Every reference to the Great Barrier Reef remo...  Flamo_the_Idiot_Boy
+495329    1475072783          2016     10239  Iceland s capital Reykjavik to switch off stre...            tiribazus
+447311    1458294452          2016     10161  TTIP: secrecy around talks is  profoundly unde...             Wagamaga
+437930    1455204945          2016      9520      Gravitational waves from black holes detected         Andromeda321
+494404    1474731905          2016      9492  The UN just declared antibiotic resistance “th...            MarcoshLA
+480475    1469724396          2016      9467  Norway considers giving mountain to Finland as...        bimonscificon
+446779    1458130384          2016      9319  FIFA admits to World Cup hosting bribes, asks ...              jurvand
+```
+
+Top 10 videos in 2015
+```
+        time_created  date_created  up_votes                                              title            author
+377200    1434818471          2015     21253  A biotech startup has managed to 3-D print fak...         KRISHNA53
+391415    1440421079          2015     13435  Twitter has forced 30 websites that archive po...     joeyoungblood
+391318    1440367768          2015     12333  The police officer who leaked the footage of t...  navysealassulter
+390252    1439939168          2015     11288  Paris shooting survivor suing French media for...         seapiglet
+397215    1442535288          2015     10922  Brazil s Supreme Court has banned corporate co...     DoremusJessup
+390494    1440030633          2015     10515  ISIS beheads 81-year-old pioneer archaeologist...     DawgsOnTopUGA
+388230    1438963135          2015     10377  Brazilian radio host famous for exposing corru...           fiffers
+389011    1439385059          2015     10086  India sues Nestle for nearly $100m because lea...         damsteegt
+412603    1447448726          2015      9967   Shootings  reported in central Paris: Reports...           emr1028
+354925    1426856986          2015      9954  France decrees new rooftops must be covered in...           pnewell
+```
