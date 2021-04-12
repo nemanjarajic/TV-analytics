@@ -69,6 +69,9 @@ madazzahatter       428966       2503     171.380743
 
 Top 10 video creators that average the most likes per video having a minimum of 1000 videos published sorted by average_likes
 
+Looking at the most common words in the year 2015 where the most videos were uploaded and there a larger number of videos with high likes.
+Also the year 2016 is explored
+
 Most common words in titles with upvotes over 200 in 2015
 ```
 [('us', 728), ('says', 604), ('new', 518), ('isis', 486), ('world', 413), ('russia', 376), ('china', 342), ('russian', 337), ('government', 333), ('people', 321), ('years', 301), ('state', 299), ('first', 290), ('said', 285), ('police', 272), ('saudi', 269), ('president', 261), ('uk', 251), ('found', 249), ('killed', 245), ('islamic', 235), ('syria', 227), ('one', 221), ('two', 212), ('turkey', 209), ('could', 208), ('minister', 207), ('war', 201), ('attack', 198), ('israel', 194), ('year', 193), ('iran', 193), ('germany', 193), ('million', 191), ('court', 190), ('report', 188), ('country', 181), ('india', 180), ('military', 170), ('putin', 166), ('say', 164), ('un', 161), ('group', 159), ('oil', 158), ('paris', 157), ('billion', 156), ('ukraine', 156), ('climate', 156), ('attacks', 149), ('arabia', 148), ('city', 146), ('syrian', 143), ('may', 142), ('death', 141), ('france', 138), ('north', 137), ('south', 136), ('german', 136), ('nuclear', 135), ('chinese', 134), ('officials', 134), ('time', 133), ('would', 131), ('korea', 130), ('calls', 129), ('rights', 128), ('scientists', 128), ('human', 128), ('deal', 126), ('law', 125), ('change', 125), ('french', 124), ('australia', 124), ('eu', 124), ('thousands', 124), ('refugees', 124), ('canada', 123), ('international', 123), ('forces', 
