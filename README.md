@@ -45,7 +45,9 @@ del df['category']
 del df['over_18']
 df['date_created'] = df['date_created'].apply(lambda s: s.split('-')[0])
 ```
+## Data Manipulation
 
+Finding the creator that has the highest likes per video by counting the number of up votes a user has and dividing it by the number of videos posted.
 
 ```
                   up_votes  frequency  average_likes
@@ -62,6 +64,11 @@ madazzahatter       428966       2503     171.380743
 ```
 
 Top 10 video creators that average the most likes per video having a minimum of 1000 videos published sorted by average_likes
+
+Most common words in titles with upvotes over 200
+```
+[('us', 3553), ('says', 2315), ('new', 1999), ('world', 1762), ('russia', 1529), ('police', 1510), ('people', 1505), ('government', 1501), ('china', 1461), ('years', 1225), ('first', 1134), ('president', 1120), ('russian', 1117), ('uk', 1116), ('isis', 1096), ('state', 1065), ('israel', 1053), ('one', 1027), ('north', 1017), ('war', 999), ('said', 988), ('killed', 959), ('korea', 939), ('found', 911), ('country', 890), ('two', 838), ('un', 828), ('court', 821), ('minister', 818), ('military', 815), ('year', 806), ('could', 805), ('syria', 802), ('ukraine', 791), ('women', 775), ('india', 775), ('saudi', 775), ('attack', 772), ('million', 756), ('south', 723), ('germany', 720), ('report', 718), ('say', 714), ('death', 712), ('chinese', 706), ('man', 698), ('law', 692), ('turkey', 684), ('iran', 658), ('islamic', 657), ('rights', 656), ('would', 631), ('human', 629), ('may', 627), ('news', 625), ('japan', 622), ('british', 620), ('canada', 614), ('german', 610), ('time', 609), ('oil', 600), ('children', 583), ('dead', 578), ('israeli', 576), ('ban', 575), ('eu', 570), ('france', 560), ('nuclear', 550), ('snowden', 547), ('putin', 546), ('calls', 540), ('internet', 539), ('international', 535), ('city', 535), ('group', 526), ('last', 510), ('iraq', 507), ('billion', 505), ('french', 502), ('thousands', 502), ('officials', 500), ('public', 496), ('australia', 494), ('use', 490), ('australian', 488), ('nsa', 483), ('three', 479), ('global', 477), ('syrian', 473), ('woman', 470), ('europe', 470), ('climate', 469), ('security', 465), ('obama', 463), ('since', 462), ('drug', 462), ('protest', 461), ('european', 460), ('united', 459), ('power', 459)]
+```
 
 
 
