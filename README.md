@@ -37,6 +37,8 @@ There is an increase in videos uploaded per year in 2013 to 2016 compared to 200
 The correlation matrix of the dataset shows that there is a low correlation between the number of likes a video has and the age restriction.
 There is a slight correlation between the year and the up votes but that can be attributed to the increase of videos uploaded per year.
 
+![alt text]()
+
 The columns that do not hold any important information are the over_18, down_votes, and category.
 The date_created column was modified to only hold the year.
 ```
