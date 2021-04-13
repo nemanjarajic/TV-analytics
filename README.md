@@ -1,5 +1,6 @@
 # eluvio_DS_ML
 Eluvio coding challenge for data science and machine learning 
+
 Analytical Insight of Dataset
 
 # Data exploring
@@ -52,7 +53,7 @@ df['date_created'] = df['date_created'].apply(lambda s: s.split('-')[0])
 ```
 
 
-Finding the creator that has the highest likes per video by counting the number of up votes a user has and dividing it by the number of videos posted.
+### Finding the creator that has the highest likes per video by counting the number of up votes a user has and dividing it by the number of videos posted.
 
 ```
                     up_votes  frequency  average_likes
@@ -68,7 +69,7 @@ _Perfectionist        145825        664     219.615964
 EightRoundsRapid      254670       1223     208.233851
 ```
 
-### Top 10 video creators that average the most likes per video having a minimum of 500 videos published sorted by average_likes
+Top 10 video creators that average the most likes per video having a minimum of 500 videos published sorted by average_likes
 
 A minimum of 500 uploads was chosen to limit the amount of outliers 
 
