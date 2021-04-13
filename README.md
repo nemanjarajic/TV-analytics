@@ -55,20 +55,23 @@ df['date_created'] = df['date_created'].apply(lambda s: s.split('-')[0])
 Finding the creator that has the highest likes per video by counting the number of up votes a user has and dividing it by the number of videos posted.
 
 ```
-                  up_votes  frequency  average_likes
-maxwellhill        1985416       4023     493.516281
-Libertatea          832102       2108     394.735294
-Wagamaga            580121       1490     389.342953
-kulkke              333311       1199     277.990826
-anutensil          1531544       5730     267.285166
-EightRoundsRapid    254670       1223     208.233851
-NinjaDiscoJesus     492582       2448     201.218137
-pnewell             297270       1562     190.313700
-PanAfrica           219742       1183     185.749789
-madazzahatter       428966       2503     171.380743
+                    up_votes  frequency  average_likes
+maxwellhill          1985416       4023     493.516281
+Libertatea            832102       2108     394.735294
+Wagamaga              580121       1490     389.342953
+green_flash           205554        638     322.184953
+mepper                223369        699     319.555079
+the_last_broadcast    154012        514     299.634241
+kulkke                333311       1199     277.990826
+anutensil            1531544       5730     267.285166
+_Perfectionist        145825        664     219.615964
+EightRoundsRapid      254670       1223     208.233851
 ```
 
-Top 10 video creators that average the most likes per video having a minimum of 1000 videos published sorted by average_likes
+Top 10 video creators that average the most likes per video having a minimum of 500 videos published sorted by average_likes because there are outliers in which the 
+creator has 1 video but more than 5000 up votes.
+
+
 
 ### Looking at the most common words in the year 2015 where the most videos were uploaded and there a larger number of videos with high likes.
 Also the year 2016 is explored
