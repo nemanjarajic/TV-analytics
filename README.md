@@ -69,7 +69,7 @@ madazzahatter       428966       2503     171.380743
 
 Top 10 video creators that average the most likes per video having a minimum of 1000 videos published sorted by average_likes
 
-Looking at the most common words in the year 2015 where the most videos were uploaded and there a larger number of videos with high likes.
+### Looking at the most common words in the year 2015 where the most videos were uploaded and there a larger number of videos with high likes.
 Also the year 2016 is explored
 
 Most common words in titles with upvotes over 200 in 2015
@@ -83,8 +83,9 @@ Most common words in title with up votes over 200 in 2016
 [('us', 699), ('says', 559), ('new', 437), ('isis', 327), ('world', 305), ('people', 304), ('china', 301), ('president', 286), ('first', 278), ('police', 278), ('years', 277), ('government', 269), ('turkey', 267), ('russia', 265), ('uk', 242), ('state', 236), ('north', 235), ('said', 230), ('saudi', 226), ('korea', 219), ('attack', 200), ('killed', 197), ('country', 196), ('women', 195), ('found', 192), ('minister', 192), ('million', 191), ('germany', 191), ('un', 185), ('south', 185), ('could', 183), ('year', 183), 
 ('one', 183), ('eu', 182), ('report', 178), ('india', 176), ('russian', 172), ('say', 167), ('two', 163), ('syria', 162), ('war', 161), ('military', 159), ('scientists', 158), ('human', 158), ('german', 152), ('climate', 151), ('death', 150), ('rights', 147), ('chinese', 144), ('may', 143), ('japan', 142), ('islamic', 136), ('ban', 135), ('french', 132), ('time', 132), ('oil', 130), ('british', 130), ('france', 128), ('court', 127), ('thousands', 126), ('arabia', 124), ('news', 124), ('europe', 121), ('global', 120), ('australia', 118), ('israel', 117), ('last', 117), ('law', 116), ('attacks', 115), ('dead', 112), ('children', 112), ('refugees', 111), ('man', 110), ('canada', 110), ('iran', 109), ('calls', 109), ('turkish', 108), ('since', 107), ('nuclear', 106), ('officials', 106), ('three', 105), ('group', 103), ('air', 102), ('european', 102), ('would', 102), ('change', 102), ('public', 101), ('city', 99), ('muslim', 98), ('international', 97), ('billion', 97), ('party', 96), ('child', 96), ('back', 94), ('leader', 94), ('syrian', 94), ('arrested', 94), ('set', 93), ('according', 93), ('pakistan', 92)]
 ```
+From the two years the United States, ISIS, China, and Russia were a few of the top most common words in titles the users published videos on.
 
-Insight of which videos recieved the most amount of upvotes for the two most recent years
+### Insight of which videos recieved the most amount of up votes for the two most recent years due to high user traffic
 
 Top 10 videos in 2016
 ```
@@ -115,3 +116,7 @@ Top 10 videos in 2015
 412603    1447448726          2015      9967   Shootings  reported in central Paris: Reports...           emr1028
 354925    1426856986          2015      9954  France decrees new rooftops must be covered in...           pnewell
 ```
+
+The top videos from the two years show that there is an interest in scientific findings or tech related videos from the userbase.
+Foreign affiars was also popular but makes sense because the category title is world news.
+Though the United States had several videos published in the two years there was not much traction with the users.
