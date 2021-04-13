@@ -50,7 +50,7 @@ del df['category']
 del df['over_18']
 df['date_created'] = df['date_created'].apply(lambda s: s.split('-')[0])
 ```
-## Data Insight
+
 
 Finding the creator that has the highest likes per video by counting the number of up votes a user has and dividing it by the number of videos posted.
 
@@ -68,10 +68,13 @@ _Perfectionist        145825        664     219.615964
 EightRoundsRapid      254670       1223     208.233851
 ```
 
-Top 10 video creators that average the most likes per video having a minimum of 500 videos published sorted by average_likes because there are outliers in which the 
-creator has 1 video but more than 5000 up votes.
+### Top 10 video creators that average the most likes per video having a minimum of 500 videos published sorted by average_likes
 
+A minimum of 500 uploads was chosen to limit the amount of outliers 
 
+![alt text](https://github.com/nemanjarajic/eluvio_DS_ML/blob/main/votesboxplot.png)
+
+The average amount of up likes per videos is about 70 with the top uploaders being the outliers
 
 ### Looking at the most common words in the year 2015 where the most videos were uploaded and there a larger number of videos with high likes.
 Also the year 2016 is explored
