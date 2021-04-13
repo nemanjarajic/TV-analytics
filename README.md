@@ -41,15 +41,21 @@ There is a slight correlation between the year and the up votes but that can be 
 
 ![alt text](https://github.com/nemanjarajic/eluvio_DS_ML/blob/main/updatedpairplot.png)
 
-From the pair plot we can see the number of videos with higher likes increases each year.
+From the pair plot we can see the number of videos with higher likes increases each year and per month the number of up votes on videos looks to be around the same.
+
 
 The columns that do not hold any important information are the over_18, down_votes, and category.
-The date_created column was modified to only hold the year.
+The date_created column was seperated into a months column and a year column.
+
 ```
 del df['down_votes']
 del df['category']
 del df['over_18']
-df['date_created'] = df['date_created'].apply(lambda s: s.split('-')[0])
+
+df['month'] = df['date_created'].apply(lambda s: s.split('-')[1]).astype('int16')
+df['year'] = df['date_created'].apply(lambda s: s.split('-')[0]).astype('int16')
+
+del df['date_created']
 ```
 
 
