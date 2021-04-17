@@ -34,6 +34,9 @@ From the dataframe there are 509236 rows. None of the rows have null entries. Th
 
 There is an increase in videos uploaded per year in 2013 to 2016 compared to 2008 to 2012
 
+![alt_text](https://github.com/nemanjarajic/eluvio_DS_ML/blob/main/videospermonth.png)
+Increase in videos uploaded per month over the 8 year period
+
 ![alt text](https://github.com/nemanjarajic/eluvio_DS_ML/blob/main/correlation%20matrix.png)
 
 The correlation matrix of the dataset shows that there is a low correlation between the number of likes a video has and the age restriction.
