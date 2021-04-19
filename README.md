@@ -98,6 +98,7 @@ A minimum of 500 uploads was chosen to limit the amount of outliers
 
 The average amount of up likes per videos is about 70 with the top uploaders being the outliers
 
+![alt text]()
 ### Looking at the most common words with vides having more than 200 up votes
 
 Most common words in all years
