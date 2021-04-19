@@ -63,7 +63,20 @@ del df['date_created']
 
 
 ### Finding the creator that has the highest likes per video by counting the number of up votes a user has and dividing it by the number of videos posted.
-
+Creators with the most published videos
+```
+davidreiss666    8897
+anutensil        5730
+DoremusJessup    5037
+maxwellhill      4023
+igeldard         4013
+readerseven      3170
+twolf1           2923
+madam1           2658
+nimobo           2564
+madazzahatter    2503
+```
+Top 10 video creators that average the most likes per video having a minimum of 500 videos published sorted by average_likes
 ```
                     up_votes  frequency  average_likes
 maxwellhill          1985416       4023     493.516281
@@ -78,7 +91,6 @@ _Perfectionist        145825        664     219.615964
 EightRoundsRapid      254670       1223     208.233851
 ```
 
-Top 10 video creators that average the most likes per video having a minimum of 500 videos published sorted by average_likes
 
 A minimum of 500 uploads was chosen to limit the amount of outliers 
 
@@ -86,8 +98,12 @@ A minimum of 500 uploads was chosen to limit the amount of outliers
 
 The average amount of up likes per videos is about 70 with the top uploaders being the outliers
 
-### Looking at the most common words in the year 2015 where the most videos were uploaded and there a larger number of videos with high likes.
-Also the year 2016 is explored
+### Looking at the most common words with vides having more than 200 up votes
+
+Most common words in all years
+```
+[('us', 3553), ('says', 2315), ('new', 1999), ('world', 1762), ('russia', 1529), ('police', 1510), ('people', 1505), ('government', 1501), ('china', 1461), ('years', 1225), ('first', 1134), ('president', 1120), ('russian', 1117), ('uk', 1116), ('isis', 1096), ('state', 1065), ('israel', 1053), ('one', 1027), ('north', 1017), ('war', 999), ('said', 988), ('killed', 959), ('korea', 939), ('found', 911), ('country', 890), ('two', 838), ('un', 828), ('court', 821), ('minister', 818), ('military', 815), ('year', 806), ('could', 805), ('syria', 802), ('ukraine', 791), ('women', 775), ('india', 775), ('saudi', 775), ('attack', 772), ('million', 756), ('south', 723), ('germany', 720), ('report', 718), ('say', 714), ('death', 712), ('chinese', 706), ('man', 698), ('law', 692), ('turkey', 684), ('iran', 658), ('islamic', 657), ('rights', 656), ('would', 631), ('human', 629), ('may', 627), ('news', 625), ('japan', 622), ('british', 620), ('canada', 614), ('german', 610), ('time', 609), ('oil', 600), ('children', 583), ('dead', 578), ('israeli', 576), ('ban', 575), ('eu', 570), ('france', 560), ('nuclear', 550), ('snowden', 547), ('putin', 546), ('calls', 540), ('internet', 539), ('international', 535), ('city', 535), ('group', 526), ('last', 510), ('iraq', 507), ('billion', 505), ('french', 502), ('thousands', 502), ('officials', 500), ('public', 496), ('australia', 494), ('use', 490), ('australian', 488), ('nsa', 483), ('three', 479), ('global', 477), ('syrian', 473), ('woman', 470), ('europe', 470), ('climate', 469), ('security', 465), ('obama', 463), ('since', 462), ('drug', 462), ('protest', 461), ('european', 460), ('united', 459), ('power', 459)]
+```
 
 Most common words in titles with upvotes over 200 in 2015
 ```
@@ -106,32 +122,30 @@ From the two years the United States, ISIS, China, and Russia were a few of the 
 
 Top 10 videos in 2016
 ```
-        time_created  date_created  up_votes                                              title               author
-450818    1459706506          2016     13244  2.6 terabyte leak of Panamanian shell company ...         mister_geaux
-449809    1459336773          2016     11108  Hundreds of thousands of leaked emails reveal ...               Xiroth
-500786    1476881235          2016     10394  Feeding cows seaweed could slash global greenh...                 mvea
-465396    1464676302          2016     10289  Every reference to the Great Barrier Reef remo...  Flamo_the_Idiot_Boy
-495329    1475072783          2016     10239  Iceland s capital Reykjavik to switch off stre...            tiribazus
-447311    1458294452          2016     10161  TTIP: secrecy around talks is  profoundly unde...             Wagamaga
-437930    1455204945          2016      9520      Gravitational waves from black holes detected         Andromeda321
-494404    1474731905          2016      9492  The UN just declared antibiotic resistance “th...            MarcoshLA
-480475    1469724396          2016      9467  Norway considers giving mountain to Finland as...        bimonscificon
-446779    1458130384          2016      9319  FIFA admits to World Cup hosting bribes, asks ...              jurvand
+450818     18:01:46     13244  2.6 terabyte leak of Panamanian shell company ...         mister_geaux      4  2016           277
+449809     11:19:33     11108  Hundreds of thousands of leaked emails reveal ...               Xiroth      3  2016           100
+500786     12:47:15     10394  Feeding cows seaweed could slash global greenh...                 mvea     10  2016           225
+465396     06:31:42     10289  Every reference to the Great Barrier Reef remo...  Flamo_the_Idiot_Boy      5  2016           141
+495329     14:26:23     10239  Iceland s capital Reykjavik to switch off stre...            tiribazus      9  2016           122
+447311     09:47:32     10161  TTIP: secrecy around talks is  profoundly unde...             Wagamaga      3  2016           129
+437930     15:35:45      9520      Gravitational waves from black holes detected         Andromeda321      2  2016            45
+494404     15:45:05      9492  The UN just declared antibiotic resistance “th...            MarcoshLA      9  2016            86
+480475     16:46:36      9467  Norway considers giving mountain to Finland as...        bimonscificon      7  2016           190
+446779     12:13:04      9319  FIFA admits to World Cup hosting bribes, asks ...              jurvand      3  2016            70
 ```
 
 Top 10 videos in 2015
 ```
-        time_created  date_created  up_votes                                              title            author
-377200    1434818471          2015     21253  A biotech startup has managed to 3-D print fak...         KRISHNA53
-391415    1440421079          2015     13435  Twitter has forced 30 websites that archive po...     joeyoungblood
-391318    1440367768          2015     12333  The police officer who leaked the footage of t...  navysealassulter
-390252    1439939168          2015     11288  Paris shooting survivor suing French media for...         seapiglet
-397215    1442535288          2015     10922  Brazil s Supreme Court has banned corporate co...     DoremusJessup
-390494    1440030633          2015     10515  ISIS beheads 81-year-old pioneer archaeologist...     DawgsOnTopUGA
-388230    1438963135          2015     10377  Brazilian radio host famous for exposing corru...           fiffers
-389011    1439385059          2015     10086  India sues Nestle for nearly $100m because lea...         damsteegt
-412603    1447448726          2015      9967   Shootings  reported in central Paris: Reports...           emr1028
-354925    1426856986          2015      9954  France decrees new rooftops must be covered in...           pnewell
+377200     16:41:11     21253  A biotech startup has managed to 3-D print fak...            KRISHNA53      6  2015           289
+391415     12:57:59     13435  Twitter has forced 30 websites that archive po...        joeyoungblood      8  2015           139
+391318     22:09:28     12333  The police officer who leaked the footage of t...     navysealassulter      8  2015           243
+390252     23:06:08     11288  Paris shooting survivor suing French media for...            seapiglet      8  2015            98
+397215     00:14:48     10922  Brazil s Supreme Court has banned corporate co...        DoremusJessup      9  2015            92
+390494     00:30:33     10515  ISIS beheads 81-year-old pioneer archaeologist...        DawgsOnTopUGA      8  2015           188
+388230     15:58:55     10377  Brazilian radio host famous for exposing corru...              fiffers      8  2015           122
+389011     13:10:59     10086  India sues Nestle for nearly $100m because lea...            damsteegt      8  2015            72
+412603     21:05:26      9967   Shootings  reported in central Paris: Reports...              emr1028     11  2015            90
+354925     13:09:46      9954  France decrees new rooftops must be covered in...              pnewell      3  2015           174
 ```
 
 The top videos from the two years show that there is an interest in scientific findings or tech related videos from the userbase.
