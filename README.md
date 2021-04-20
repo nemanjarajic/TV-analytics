@@ -102,6 +102,11 @@ The average amount of up likes per videos is about 70 with the top uploaders bei
 
 Large number of videos uploaded between 12:00 and 18:00
 
+![alt_text](https://github.com/nemanjarajic/eluvio_DS_ML/blob/main/up_votes_per_hour.png)
+
+Majority of up votes are for videos created between 11:00 and and 15:00
+
+
 ![alt text](https://github.com/nemanjarajic/eluvio_DS_ML/blob/main/title%20lengths.png)
 
 Histogram of the length of the video titles
@@ -159,3 +164,6 @@ Top 10 videos in 2015
 The top videos from the two years show that there is an interest in scientific findings or tech related videos from the userbase.
 Foreign affiars was also popular but makes sense because the category title is world news.
 Though the United States had several videos published in the two years there was not much traction with the users.
+
+## Conclusions
+
