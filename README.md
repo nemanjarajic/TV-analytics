@@ -106,6 +106,10 @@ Large number of videos uploaded between 12:00 and 18:00
 
 Majority of up votes are for videos created between 11:00 and and 15:00
 
+![alt_text](https://github.com/nemanjarajic/eluvio_DS_ML/blob/main/3most%20recent%20years.png)
+
+The 3 most recent years follow a similar distribution of up votes to the grouped data above 
+
 
 ![alt text](https://github.com/nemanjarajic/eluvio_DS_ML/blob/main/title%20lengths.png)
 
@@ -132,6 +136,21 @@ Most common words in title with up votes over 200 in 2016
 From the two years the United States, ISIS, China, and Russia were a few of the top most common words in titles the users published videos on.
 
 ### Insight of which videos recieved the most amount of up votes for the two most recent years due to high user traffic
+
+Top 10 videos overall
+```
+377200     16:41:11     21253  A biotech startup has managed to 3-D print fak...         KRISHNA53      6  2015           289
+391415     12:57:59     13435  Twitter has forced 30 websites that archive po...     joeyoungblood      8  2015           139
+450818     18:01:46     13244  2.6 terabyte leak of Panamanian shell company ...      mister_geaux      4  2016           277
+391318     22:09:28     12333  The police officer who leaked the footage of t...  navysealassulter      8  2015           243
+390252     23:06:08     11288  Paris shooting survivor suing French media for...         seapiglet      8  2015            98
+449809     11:19:33     11108  Hundreds of thousands of leaked emails reveal ...            Xiroth      3  2016           100
+397215     00:14:48     10922  Brazil s Supreme Court has banned corporate co...     DoremusJessup      9  2015            92
+390494     00:30:33     10515  ISIS beheads 81-year-old pioneer archaeologist...     DawgsOnTopUGA      8  2015           188
+500786     12:47:15     10394  Feeding cows seaweed could slash global greenh...              mvea     10  2016           225
+388230     15:58:55     10377  Brazilian radio host famous for exposing corru...           fiffers      8  2015           122
+```
+
 
 Top 10 videos in 2016
 ```
@@ -167,3 +186,14 @@ Though the United States had several videos published in the two years there was
 
 ## Conclusions
 
+- Creators that have a high amount of videos posted also have a high amount of likes vice versa for low amount of videos posted
+- Best time to upload videos are between 11:00 and 16:00
+- Most common video topics revolve around United States, China, ISIS, and Russia
+- Most popular videos are of break throughs in technology
+
+## Possible future applications
+- Prediction of how well a video will do based off title and other weights
+- Prediction of creators success based of videos uploaded
+- Recommendation based on favorite creator or recently watched videos
+- Prediction of the amount of videos that will be posted on similar topics 
+- 
